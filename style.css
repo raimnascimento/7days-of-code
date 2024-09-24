@@ -1,0 +1,612 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap');
+
+:root {
+    --cor-fundo: #fff;
+    --cor-fonte: #667085;
+    --cor-destaque: #8E2424;
+    --cor-preto: #101828;
+}
+
+body {
+    background-color: var(--cor-fundo);
+    color: var(--cor-fonte);
+    font-family: 'Inter', 'Sans Serif';
+    font-weight: 400;
+    text-align: center;
+}
+
+.cabecalho {
+    background-color: var(--cor-fundo);
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.cabecalho-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 2em;
+}
+
+.cabecalho-logo {
+    width: 8em;
+}
+
+.opcoes {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.opcoes-lista {
+    list-style-type: none;
+    color: var(--cor-fonte);
+    font-size: 1em;
+    line-height: 24px; 
+}
+
+.opcoes-link {
+    text-decoration: none;
+    color: var(--cor-fonte);
+}
+
+.opcoes-link:hover {
+    color: var(--cor-destaque);
+    font-weight: 500;
+}
+
+.opcoes-link-botao {
+    color: var(--cor-fundo);
+    text-decoration: none;
+}
+
+.opcoes-lista-botoes {
+    background-color: var(--cor-destaque);
+    padding: 0.8em 1em;
+    border-radius: 0.5em;
+}
+
+.container {
+    margin: 6em auto;
+    width: 65%;
+}
+
+.container-destaque {
+    color: var(--cor-destaque);
+    font-weight: 600;
+    font-size: 1em;
+    line-height: 24px;
+    margin-bottom: 1.8em;
+}
+
+.container-titulo {
+    color: var(--cor-preto);
+    font-size: 3em;
+    line-height: 60px;
+    font-weight: 600;
+    margin-bottom: 1em;
+}
+
+.container-texto {
+    font-size: 1.25em;
+    line-height: 30px;
+    margin-bottom: 1.8em;
+}
+
+.cards-container {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    width: 90%;
+    margin: 5em auto 10em;
+}
+
+.cards {
+    text-align: left;
+    background-color: #c3191905;
+    width: 17.5em;
+    padding: 1em;
+}
+
+.card-destaque {
+    color: var(--cor-destaque);
+    font-weight: 600;
+    font-size: 3.75em;
+    line-height: 72px;
+    margin-bottom: 0.5em;
+}
+
+.card-titulo {
+    color: var(--cor-preto);
+    font-weight: 500;
+    font-size: 1.1em;
+    line-height: 28px;
+    margin-bottom: 0.5em;
+}
+
+.card-texto {
+    font-size: 1em;
+    line-height: 24px;
+}
+
+.container-talentos {
+    margin: 5em auto 7em;
+}
+
+.talentos-destaque {
+    color: var(--cor-destaque);
+    background-color: #ccc;
+    border-radius: 1em;
+    font-size: 0.8em;
+    line-height: 20px;
+    font-weight: 500;
+    padding: 0.25em 0.75em;
+    width: 10%;
+    margin: 0 auto 1.5em;
+}
+
+.talentos-titulo {
+    color: var(--cor-preto);
+    font-weight: 600;
+    font-size: 2em;
+    line-height: 44px;
+    margin-bottom: 0.5em;
+}
+
+.talentos-texto {
+    font-size: 1.2em;
+    line-height: 30px;
+    margin-bottom: 1.5em;
+}
+
+.img-talentos {
+    width: 85%;
+}
+
+.conteudo-vagas {
+    text-align: left;
+    width: 60%;
+    margin: 0 auto 3em;
+}
+
+.vagas-titulo {
+    color: var(--cor-preto);
+    font-size: 1.1em;
+    font-weight: 500;
+    line-height: 30px;
+    margin-bottom: 1.8em;
+}
+
+.vagas-bloco {
+    border: 2px solid #EAECF0;
+    border-radius: 1em;
+    padding: 1.5em;
+    margin: 1.2em auto;
+}
+
+.divisao {
+    margin-top: 3em;
+}
+
+.vagas-flex {
+    display: flex;
+    gap: 24px;
+}
+
+.vagas-info {
+    font-size: 1em;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.depoimentos {
+    background-color: #c319190a;
+    margin: 0 auto 4.5em;
+    padding: 4em 2em;
+}
+
+.depoimentos-destaque {
+    color: var(--cor-destaque);
+    font-weight: 600;
+    font-size: 0.9em;
+    line-height: 20px;
+    margin-bottom: 1em;
+}
+
+.depoimentos-titulo,
+.formulario-titulo {
+    color: var(--cor-preto);
+    font-weight: 500;
+    font-size: 2.2em;
+    line-height: 44px;
+    margin-bottom: 0.6em;
+}
+
+.depoimento-img {
+    width: 8%;
+    margin: 0 auto 0.8em;
+}
+
+.depoimento-texto {
+    color: var(--cor-preto);
+    font-weight: 500;
+    font-size: 1em;
+    line-height: 24px;
+    margin-bottom: 0.5em;
+}
+
+.depoimento-texto-simples {
+    font-size: 0.9em;
+}
+
+.formulario {
+    background-color: #f9fafbf0;
+    margin: 0 auto 4.5em;
+    padding: 4em 2em;
+}
+
+.formulario-texto {
+    font-size: 1.25em;
+    line-height: 30px;
+    margin-bottom: 1.5em;
+}
+
+input {
+    border: 0.1em solid #EAECF0;
+    border-radius: 0.5em;
+    padding: 0.8em 0.4em;
+    width: 30%;
+    margin-right: 2.5em;
+}
+
+button {
+    background-color: var(--cor-destaque);
+    color: var(--cor-fundo);
+    padding: 0.8em 1em;
+    border-radius: 0.5em;
+    border: none;
+}
+
+.rodape {
+    padding: 0.8em 0;
+    background-color: #8e242404;
+}
+
+.rodape-text {
+    font-size: 1em;
+    line-height: 24px;
+}
+
+span {
+    color: #8E2424;
+    font-weight: 500;
+}
+
+.rodape-autor {
+    display: flex;
+    flex-direction: row;
+    white-space: nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+}
+
+.rodape-icon {
+    width: 1.8em;
+}
+
+@media screen and (max-width: 768px) {
+    .cabecalho {
+        background-color: var(--cor-fundo);
+        width: 100%;
+        position: fixed;
+        top: 0;
+    }
+    
+    /*.cabecalho-menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1em 2em;
+    }*/
+    
+    .cabecalho-logo {
+        width: 10em;
+        margin: auto;
+    }
+    
+    .opcoes {
+        display: none;
+    }
+    
+    .container {
+        width: 90%;
+    }
+    .container-destaque {
+        font-size: 0.8em;
+        margin-bottom: 0.5em;
+    }
+    
+    .container-titulo {
+        font-size: 1.2em;
+        margin-bottom: 0.5em;
+    }
+    
+    .container-texto {
+        font-size: 0.9em;
+    }
+    
+    .cards-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5em;
+        width: 90%;
+        margin: 2em auto 5em;
+    }
+
+    .cards {
+        width: 40%;
+    }
+
+    .card-destaque {
+        font-size: 3em;
+        margin-bottom: 0.3em;
+    }
+    
+    .card-titulo {
+        font-size: 1em;
+    }
+    
+    .card-texto {
+        font-size: 0.8em;
+    }
+    
+    .container-talentos {
+        margin: 5em auto 5em;
+    }
+    
+    .talentos-destaque {
+        font-size: 0.7em;
+        width: 30%;
+    }
+    
+    .talentos-titulo {
+        font-size: 1.2em;
+    }
+    
+    .talentos-texto {
+        font-size: 0.9em;
+        width: 90%;
+        margin: 0 auto 1em;
+    }
+    
+    .img-talentos {
+        width: 90%;
+    }
+    
+    .conteudo-vagas {
+        width: 80%;
+        margin: 0 auto 3em;
+    }
+    
+    .vagas-titulo {
+        font-size: 0.9em;
+        margin-bottom: 1.5em;
+    }
+    
+    .vagas-bloco {
+        padding: 1em;
+        margin: 1em auto;
+    }
+    
+    .divisao {
+        margin-top: 1.5em;
+    }
+
+    .vagas-info {
+        font-size: 0.8em;
+    }
+    
+    .depoimentos {
+        padding: 3em 1.5em;
+    }
+    
+    .depoimentos-destaque {
+        font-size: 0.8em;
+    }
+    
+    .depoimentos-titulo,
+    .formulario-titulo {
+        font-size: 1em;
+        margin-bottom: 0.6em;
+    }
+    
+    .depoimento-img {
+        width: 20%;
+    }
+    
+    .depoimento-texto,
+    .depoimento-texto-simples {
+        font-size: 0.7em;
+    }
+    
+    .formulario {
+        margin: 0 auto 3em;
+        padding: 3em 1.5em;
+    }
+    
+    .formulario-texto {
+        font-size: 0.8em;
+        margin-bottom: 1em;
+    }
+    
+    input {
+        width: 40%;
+    }
+
+    .rodape-icon {
+        width: 1.5em;
+    } 
+}
+
+@media screen and (max-width: 480px) {
+    .cabecalho {
+        background-color: var(--cor-fundo);
+        width: 100%;
+        position: fixed;
+        top: 0;
+    }
+    
+    /*.cabecalho-menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1em 2em;
+    }*/
+    
+    .cabecalho-logo {
+        width: 10em;
+        margin: auto;
+    }
+    
+    .opcoes {
+        display: none;
+    }
+    
+    .container {
+        width: 90%;
+    }
+    .container-destaque {
+        font-size: 0.8em;
+        margin-bottom: 0.5em;
+    }
+    
+    .container-titulo {
+        font-size: 1.2em;
+        margin-bottom: 0.5em;
+    }
+    
+    .container-texto {
+        font-size: 0.9em;
+    }
+    
+    .cards-container {
+        flex-wrap: wrap;
+        gap: 0.5em;
+        width: 70%;
+        margin: 2em auto 5em;
+    }
+
+    .card-destaque {
+        font-size: 3em;
+        margin-bottom: 0.3em;
+    }
+    
+    .card-titulo {
+        font-size: 1em;
+    }
+    
+    .card-texto {
+        font-size: 0.8em;
+    }
+    
+    .container-talentos {
+        margin: 5em auto 5em;
+    }
+    
+    .talentos-destaque {
+        font-size: 0.7em;
+        width: 30%;
+    }
+    
+    .talentos-titulo {
+        font-size: 1.2em;
+    }
+    
+    .talentos-texto {
+        font-size: 0.9em;
+        width: 90%;
+        margin: 0 auto 1em;
+    }
+    
+    .img-talentos {
+        width: 90%;
+    }
+    
+    .conteudo-vagas {
+        width: 80%;
+        margin: 0 auto 3em;
+    }
+    
+    .vagas-titulo {
+        font-size: 0.9em;
+        margin-bottom: 1.5em;
+    }
+    
+    .vagas-bloco {
+        padding: 1em;
+        margin: 1em auto;
+    }
+    
+    .divisao {
+        margin-top: 1.5em;
+    }
+
+    .vagas-info {
+        font-size: 0.8em;
+    }
+    
+    .depoimentos {
+        padding: 3em 1.5em;
+    }
+    
+    .depoimentos-destaque {
+        font-size: 0.8em;
+    }
+    
+    .depoimentos-titulo,
+    .formulario-titulo {
+        font-size: 1em;
+        margin-bottom: 0.6em;
+    }
+    
+    .depoimento-img {
+        width: 20%;
+    }
+    
+    .depoimento-texto,
+    .depoimento-texto-simples {
+        font-size: 0.7em;
+    }
+    
+    .formulario {
+        margin: 0 auto 3em;
+        padding: 3em 1.5em;
+    }
+    
+    .formulario-texto {
+        font-size: 0.8em;
+        margin-bottom: 1em;
+    }
+    
+    input {
+        width: 50%;
+    }
+    
+    button {
+        border: none;
+    }
+
+    .rodape-text {
+        font-size: 0.8em;
+    }
+    
+    .rodape-autor {
+        gap: 1.5em;
+    }
+    
+    .rodape-icon {
+        width: 1.3em;
+    } 
+}
