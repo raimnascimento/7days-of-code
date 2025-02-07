@@ -14,5 +14,9 @@ Apresentar um design clean e profissional, alinhado com a identidade visual da e
 HTML5: Estruturação da página e conteúdo.
 CSS3: Estilização visual, layout e responsividade.
 
+## Resultado Final
+[Clique aqui para ver o resultado.]([(https://optimus-tech-chi-fawn.vercel.app/)])
+![imagem](./Resultado.png)
+
 **📩 Contato**
 Para dúvidas ou sugestões, entre em contato: raissa.mnascimento26@gmail.com
